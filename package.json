@@ -1,0 +1,22 @@
+{
+  "name": "nexus-arcade-portal",
+  "version": "1.0.0",
+  "description": "Nexus Arcade - Premium HTML5 Game Playing Platform",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "keywords": [
+    "arcade",
+    "html5-games",
+    "game-portal",
+    "vercel"
+  ],
+  "author": "Nexus Arcade",
+  "license": "MIT"
+}

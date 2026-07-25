@@ -1,0 +1,7 @@
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png" #change your app icon 
+
+  # For Generator Command 
+  # flutter pub run flutter_launcher_icons:main

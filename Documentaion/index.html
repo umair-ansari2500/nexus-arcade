@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zontal App Documentation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titlebar">
+            <h3 class="title">Zontal App</h3>
+            <span class="version">Version 1.0</span>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <ul>
+                    <li><a onclick="tabActive(this)" href="#">Get Started</a></li>
+                    <li><a onclick="tabActive(this)" href="#howtoaddurl">How To Add URL</a></li>
+                    <li><a onclick="tabActive(this)" href="#howtochangesplashscreenlogo">How To Change Splash Screen
+                            Logo</a></li>
+                    <li><a onclick="tabActive(this)" href="#howtochangeapptitle">How To Change App Title</a></li>
+                    <li><a onclick="tabActive(this)" href="#howtochangeappname">How To Change App Name</a></li>
+                    <li><a onclick="tabActive(this)" href="#howtochangeappicon">How To Change App Icon</a></li>
+                    <li><a onclick="tabActive(this)" href="#howtobuilapk">How To Build Apk</a></li>
+                </ul>
+            </div>
+            <div class="mian_content">
+                <div class="title_de">
+                    <h2>Get Started</h3>
+                </div>
+                <div class="desc">
+                    <p> The Zontal App, the ultimate HTML 5 Games Portal with amazing features and functionalities With  over 2200+ games and a wide range of capabilities, this App is the perfect solution for anyone looking to create a stunning gaming App.</p>
+                    <h3 style="margin-top: 10px; margin-bottom: 10px;">Most Important</h3>
+                    <strong>Requirements For Flutter App</strong>
+                    <li>Flutter</li>
+                    <li>Android SDK</li>
+                    <li>Visual Studio Code</li>
+                    <strong>Important</strong>
+                    <li>open Your Zontal App in visual studio code</li>
+                    <li>Then open <b>Terminal</b></li>
+                    <li>And Run This <b>fluter pub get</b> command</li>
+                     <li style="color: red;">note: you must have internet connection</li>
+                </div>
+                <div class="thumbnail">
+                    <img  style="height: 500px; margin-top: 10px;" src="images/app.png" alt="">
+                </div>
+
+                <div class="banner">
+                    <h2>How To Add URL</h2>
+                </div>
+                <div class="m" id="howtoaddurl">
+                    <p style="margin-bottom: 10px;"><strong>How To Add URL</strong></p>
+                    <li>Go To <b>lib/home/home.dart</b></li>
+                    <li>And Find URL As shown in image</li>
+                    <li>Put Your Website URL</li>
+                    <img style="margin-top: 10px;" src="images/1.png" alt="">
+                </div>
+                <div class="banner">
+                    <h2>How To Change Splash Screen Logo</h2>
+                </div>
+                <div class="m" id="howtochangesplashscreenlogo">
+                    <p style="margin-bottom: 10px;"><strong>How To Change Splash Screen Logo</strong></p>
+                    <li>Go To <b>lib/main.dart</b></li>
+                    <li>And Find <b>Image.network</b> As shown in image</li>
+                    <li>Put Your Logo URL</li>
+                    <img style="margin-top: 10px;" src="images/2.png" alt="">
+                </div>
+
+                <div class="banner">
+                    <h2>How To Change App Title</h2>
+                </div>
+
+                <div class="m" id="howtochangeapptitle">
+                    <p style="margin-bottom: 10px;"><strong>How To Change App Title</strong></p>
+                    <li>Go To <b>lib/main.dart</b></li>
+                    <li>And Find <b>title</b> As shown in image</li>
+                    <li>Change Your App Title name</li>
+                    <img style="margin-top: 10px;" src="images/3.png" alt="">
+                </div>
+
+                <div class="banner">
+                    <h2>How To Change App Name</h2>
+                </div>
+
+                <div class="m" id="howtochangeappname">
+                    <p style="margin-bottom: 10px;"><strong>How To Change App Title</strong></p>
+                    <li>Go To <b>androind/app/src/main/AndroidManifest.xml</b></li>
+                    <li>And Find <b>android:label</b> As shown in image</li>
+                    <li>Change Your App name</li>
+                    <img style="margin-top: 10px;" src="images/5.png" alt="">
+                </div>
+                <div class="banner">
+                    <h2>How To Change App Icon</h2>
+                </div>
+
+                <div class="m" id="howtochangeappicon">
+                    <p style="margin-bottom: 10px;"><strong>How To Change App Icon</strong></p>
+                    <li>Go To <b>flutter_launcher_icons.yaml</b></li>
+                    <li>And Change Your Icon Image As shown in image</li>
+                    <li>then open terminal and run this <b>flutter pub run flutter_launcher_icons:main</b> command </li>
+                    <li>Wait few Second</li>
+                    <li style="color: red;">note: you must have internet connection</li>
+                    <img style="margin-top: 10px;" src="images/4.png" alt="">
+                    <img style="margin-top: 10px; width: 700px;" src="images/6.png" alt="">
+                </div>
+
+                 <div class="banner">
+                    <h2>How To Build Apk</h2>
+                </div>
+
+                <div class="m" id="howtobuilapk">
+                    <p style="margin-bottom: 10px;"><strong>How To Build Apk</strong></p>
+                    <li>Open Your Zontal App Folder On visual studio Code</li>
+                    <li>And Open Terminal in visual studio Code </li>
+                    <li>then run this <b>flutter build apk</b> command </li>
+                    <li>Wait few minute</li>
+                    <li style="color: red;">note: you must have internet connection</li>
+                    <img style="margin-top: 10px; width: 700px;" src="images/7.png" alt="">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

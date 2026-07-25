@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.titlebar{
+    height: 300px;
+    background-color: rgba(202, 186, 122, 0.797);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 30px !important;
+}
+
+.version{
+    color: rgb(141, 141, 141) !important;
+}
+
+.main{
+    display: flex;
+}
+
+.sidebar{
+    width: 30%;
+    height: 100vh;
+    box-shadow: 0px 0px 4px 0px #dccdcd;
+    position: sticky;
+    top: 0;
+}
+
+
+
+ul{
+    padding: 10px;
+    
+}
+
+ul li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 5px;
+    transition: 0.2s;
+
+}
+.active{
+    background-color: #dcdcdc;
+
+}
+
+ul li:hover{
+    background-color: #dcdcdc;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.mian_content{
+    padding: 10px;
+    width: 70%;
+}
+
+.desc{
+    padding: 10px;
+    line-height: 22px;
+}
+
+.title_de{
+    padding: 10px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+}
+
+.thumbnail{
+    text-align: center;
+}
+
+.banner{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+}
+
+.m{
+    padding: 10px;
+}
