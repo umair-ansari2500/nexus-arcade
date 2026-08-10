@@ -130,6 +130,8 @@ function renderLegalPage(title, content) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8244337620604169"
+     crossorigin="anonymous"></script>
   <style>
     :root {
       --bg-dark: #0a0b12;
@@ -331,6 +333,8 @@ function renderPortalHTML(games, currentSid) {
   <link rel="canonical" href="https://nexus-arcade-delta.vercel.app/">
   <meta name="google-site-verification" content="EpI17QtW0KFq48SSio1vSdtznke_tKStpFusSNkGSyU" />
   <meta name="msvalidate.01" content="F5B4B6FAA21B402038710837D53F8F27" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8244337620604169"
+     crossorigin="anonymous"></script>
   
   <!-- PERFORMANCE & DNS PRECONNECTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

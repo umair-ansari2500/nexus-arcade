@@ -94,6 +94,8 @@ if ($zon['config']['theme'] === 'garud') {
         <script src="<?php echo $site_url ?>js/toast.min.js"></script>
         <link rel="stylesheet" href="<?php echo $site_url ?>css/toast.min.css" />
         <?php echo $zon['config']['head_code'] ?>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8244337620604169"
+     crossorigin="anonymous"></script>
         <style>
             :root {
                 --zon-body-bg-color: #111;
@@ -558,6 +560,8 @@ if ($zon['config']['theme'] === 'garud') {
         <script src="<?php echo $site_url ?>js/wow.min.js"></script>
         <script>zontal = { url: "<?php echo $site_url ?>", ui: <?php echo $zon['user']['id'] ?? 0; ?> }</script>
         <?php echo $zon['config']['head_code'] ?>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8244337620604169"
+     crossorigin="anonymous"></script>
         <style>
             html[zontal-theme="dark"] {
                 --zon-body-bg-color: #111;
