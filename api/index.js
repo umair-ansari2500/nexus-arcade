@@ -132,6 +132,12 @@ function renderLegalPage(title, content) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6274986466107893"
      crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NGCTKNT7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
   <style>
     :root {
       --bg-dark: #0a0b12;
@@ -335,6 +341,12 @@ function renderPortalHTML(games, currentSid) {
   <meta name="msvalidate.01" content="F5B4B6FAA21B402038710837D53F8F27" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6274986466107893"
      crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NGCTKNT7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
   
   <!-- PERFORMANCE & DNS PRECONNECTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
